@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem dinâmica</title>
+</head>
+<body>
+    <picture>
+        <h1>imagem adaptavel</h1>
+        <source media="(max-width: 750px)" srcset="Corujita300.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="Corujita700.jpg" type="image/jpg">
+        <img src="Corujita.jpg" alt="Imagem adaptavel">
+    </picture>
+    <h1>Áudio</h1>
+    <audio preload="none" controls>
+        <source src="guanacast-33.mp3" type="audio/mp3">
+    </audio>
+    <p><a href="guanacast-33.mp3" download="guanacast-33.mp3" type="audio/mp3" target="_blank">Link para download do áudio</a></p>
+</body>
+</html>
